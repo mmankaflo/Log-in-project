@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    height: 100vh;
+  }
+  
+  .container {
+    display: flex;
+    width: 100%;
+  }
+  
+  .sidebar {
+    width: 40%;
+    background-image: url('images/unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;     /* Vertical centering */
+    align-items: center;         /* Horizontal centering */
+    color: white;
+    padding: 2rem 1rem;
+  }
+  
+  .logo-container {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1.5rem;
+    border-radius: 8px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  .logo-container img {
+    width: 40px;
+    height: auto;
+    opacity: 0.7;
+    margin-bottom: 0.5rem;
+  }
+  
+  .logo {
+    font-family: 'NorseBold', sans-serif;
+    font-size: 2rem;
+    margin: 0;
+  }
+  
+  .credit {
+    font-size: 0.75rem;
+    text-align: center;
+    opacity: 0.8;
+  }
+  
+  .form-section {
+    flex-grow: 1;
+    background-color: #f9fafb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem;
+  }
+  
+  .intro {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    max-width: 600px;
+  }
+  
+  .form-area {
+    background-color: white;
+    padding: 2rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    max-width: 650px;
+  }
+  
+  h2 {
+    margin-top: 0;
+  }
+  
+  .form-row {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .form-group {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input {
+    padding: 0.5rem;
+    border: 1px solid #E5E7EB;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  input:invalid {
+    border-color: red;
+  }
+  
+  input:focus {
+    border-color: blue;
+    box-shadow: 0 0 3px blue;
+    outline: none;
+  }
+  
+  button {
+    background-color: #596D48;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  button:hover {
+    background-color: #475a38;
+  }
+  
+  .login-text {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+  }
+  
+  .login-text a {
+    color: #596D48;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .photo-credit {
+    font-size: 0.75rem;
+    color: white;
+    opacity: 0.8;
+    margin-top: auto;
+    padding: 1rem 0;
+  }
+

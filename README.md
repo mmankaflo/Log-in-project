@@ -49,7 +49,7 @@ Clone the repository to your local machine:
 bash
 Copy
 Edit
-git clone https://github.com/yourusername/visual-navigation.git
+git clone https://github.com/mmankaflo/Log-in-project.git
 Navigate into the project directory:
 
 bash

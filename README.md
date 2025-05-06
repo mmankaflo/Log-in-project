@@ -1,6 +1,9 @@
 # Visual Navigation Project
 This project is a visual navigation sign-up form interface designed to demonstrate the use of HTML, CSS, and flexible layout techniques. It's part of a broader initiative to create accessible, visually friendly web applications.
 
+# Preview
+https://mmankaflo.github.io/Log-in-project/
+
 ## Table of Contents
 Introduction
 
